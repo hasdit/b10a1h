@@ -15,7 +15,7 @@ padding: 0px 0px 150px 0px;
 }
 .content{
     /* Hero-bg */
-    background-image: url(../assests/Hero-bg.png);
+    background-image: url(./assests/Hero-bg.png);
 width: 1440px;
 height: 652px;
 left: 0;
@@ -321,7 +321,7 @@ bottom: -1.74%;
    justify-content: space-around;
 }
 .ff1{
-    background-image: url(../assests/handshake.jpg);
+    background-image: url(./assests/handshake.jpg);
     background-position: center;
   position: absolute;
 width: 950px;
