@@ -1,0 +1,364 @@
+/* hero page design */
+.frame{
+position: absolute;
+width: 998px;
+height: 582px;
+left: 221px;
+right: 221px;
+top: 0px;
+bottom: 4506px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px 0px 150px 0px;
+}
+.content{
+    /* Hero-bg */
+    background-image: url(../assests/Hero-bg.png);
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 70px;
+bottom: 462px;
+justify-content: center;
+}
+/* img-design */
+.bg-front{
+width: 240.28px;
+height: 240px;
+left: 257.67%;
+right: -257.67%;
+top: 0%;
+bottom: 0%;
+transform: none;
+}
+h1{
+    /* text-align & display */
+width: 998px;
+height: 136px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+/* font-style */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* paragraph-style */
+p{
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+flex-grow: 0;
+margin: 24px 0px;
+opacity: 0.7;
+/* paragrapgh-font */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.p2{
+    /* p2-style */
+position: static;
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+opacity: 0.7;
+/* p2-font */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.p3{
+position: static;
+width: 468px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* button style */
+.c-btn{
+    /* contact-btn style */
+width: 208px;
+height: 66px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+flex: none;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+/* btn-font */
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.l-btn{
+    /* learn more btn style */
+position: static;
+width: 150px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+
+.s2{
+position: static;
+width: 946px;
+height: 1235px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px 225px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.d2{
+    /* h2 & p layout  */
+position: static;
+width: 852px;
+height: 115px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+h2{
+    /* Why Web Development?? */
+position: static;
+width: 852px;
+height: 39px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+/* h2-font */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.h3i{
+    position: static;
+width: 852px;
+height: 115px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 50px 233px;
+}
+.d3{
+position: static;
+width: 850px;
+height: 240px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.d3-sub{
+position: static;
+width: 477px;
+height: 140px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.iwdc{
+    /* I will Do Coding and Change The World */
+position: static;
+width: 390px;
+height: 72px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.l-1{
+width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+}
+/* MY Inspiration Video */
+.video{
+    display: flex;
+    flex: none;
+    flex-grow: 0;
+    position: static;
+    order: 0;
+    align-self: stretch;
+    margin: 10px 0px;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 48px;
+}
+/* My Current Target */
+#hh{
+    display: flex;
+    justify-content: center;
+    flex: none;
+}
+#pp{
+    display: flex;
+    justify-content: center;
+    flex: none;
+    padding-left: 220px;
+}
+.mct{
+    display: flex;
+   justify-content: space-around;
+}
+.ff1{
+    background-image: url(../assests/handshake.jpg);
+    background-position: center;
+  position: absolute;
+width: 950px;
+height: 300px;
+left: 170px;
+right: 150px;
+top: 3170px;
+bottom: 32px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 32;
+padding:  64px 48px 64px 48px;
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    }
+    .ff3{
+        box-sizing: border-box;
+border: 2px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: 
+rgb(255, 255, 255);
+    }
+    .foter{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: -170px;
+top: 3610px;
+display: flex;
+flex: none;
+flex-direction: row;
+justify-content: space-around;
+gap: 32;
+padding: 20px 0px 0px 0px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+ }
